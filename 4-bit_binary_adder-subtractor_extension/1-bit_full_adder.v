@@ -1,0 +1,11 @@
+//???_E94084016
+//implement a 1-bit_full_adder
+module one_bit_full_adder (sum, Cout, a, b, Cin);
+
+  input a, b, Cin;
+  output sum, Cout;
+    
+	assign Cout = a ^ b ^ Cin;
+	assign sum = (a & b) | (b & Cin) | (a & Cin); 
+
+endmodule

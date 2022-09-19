@@ -1,0 +1,175 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/e9408/Desktop/HW1 E94081149/HW1-1
+vaddSub4bit
+Z0 !s110 1619002393
+!i10b 1
+!s100 e6eKl=6TbD`b2S6OC0K>F3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>T[gfFWcfHGzT8:d2<89O1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/e9408/Desktop/HW1 E94081149/HW1-2
+w1619001935
+8C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_add_sub.v
+FC:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_add_sub.v
+!i122 21
+L0 7 15
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1619002393.000000
+!s107 C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_add_sub.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_add_sub.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+nadd@sub4bit
+vBCD
+R0
+!i10b 1
+!s100 [Xh3Bh@g<9oXcn6YfZV3d1
+R1
+ITlcXl4GX=;0EPaVdF6QD=0
+R2
+R3
+w1619001916
+8C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/BCD.v
+FC:/Users/e9408/Desktop/HW1 E94081149/HW1-2/BCD.v
+!i122 22
+L0 7 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/BCD.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/BCD.v|
+!i113 1
+R6
+R7
+n@b@c@d
+vfour_bit_full_adder
+R0
+!i10b 1
+!s100 mB@h<ChgAfmZF]Ok9MmlE0
+R1
+IW<2IR62b[zieZF0zoZRjk2
+R2
+R3
+w1619001955
+8C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_full_adder.v
+FC:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_full_adder.v
+!i122 19
+L0 2 14
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_full_adder.v|
+!i113 1
+R6
+R7
+vfour_bit_XOR
+R0
+!i10b 1
+!s100 QhXCj4jf1dM[n>oSShBES2
+R1
+IQ3G5<Rl:V<k=;lbBkI>JJ2
+R2
+R3
+w1619001942
+8C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_XOR.v
+FC:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_XOR.v
+!i122 20
+Z8 L0 2 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_XOR.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/4-bit_XOR.v|
+!i113 1
+R6
+R7
+nfour_bit_@x@o@r
+vone_bit_full_adder
+R0
+!i10b 1
+!s100 TgR;TPfQ=D3MPn6I_O:IE2
+R1
+I5[nn]^>ocdF@DP?o6nn;L1
+R2
+R3
+w1619002175
+8C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/1-bit_full_adder.v
+FC:/Users/e9408/Desktop/HW1 E94081149/HW1-2/1-bit_full_adder.v
+!i122 18
+R8
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/1-bit_full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/1-bit_full_adder.v|
+!i113 1
+R6
+R7
+vtest
+R0
+!i10b 1
+!s100 _k_b8X9]VcB`L^[YE[6Cg3
+R1
+IVZ_^kGK2MV>TfMOmW^Bkh2
+R2
+R3
+w1619002383
+Z9 8C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/testbench.v
+Z10 FC:/Users/e9408/Desktop/HW1 E94081149/HW1-2/testbench.v
+!i122 23
+Z11 L0 2 37
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/testbench.v|
+Z13 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/e9408/Desktop/HW1 E94081149/HW1-2/testbench.v|
+!i113 1
+R6
+R7
+vtestbench
+!s110 1619002189
+!i10b 1
+!s100 gC`zi?@eS3FW1XWH8CFDI2
+R1
+I1]M;IeTaPdeB@A]>jLfdN1
+R2
+R3
+w1619002187
+R9
+R10
+!i122 16
+R11
+R4
+r1
+!s85 0
+31
+!s108 1619002189.000000
+R12
+R13
+!i113 1
+R6
+R7

@@ -1,0 +1,28 @@
+//???_E94084016
+//implement a 4-bit BCD code
+//input: op(0 or 1) to be as adder or substractor
+//input: a(4-bit)
+//input: b(4-bit)
+//output: sum(4-bit) with BCD code
+//output: c_out(final carry out bit)
+module BCD(sum, Cout, op, a,b);
+  input op; //op=0 adder ; op=1 substractor
+  input [3:0] a;
+  input [3:0] b;
+  output [3:0] sum;
+  output Cout;
+  wire [3:0] firstsum;
+  wire first_Cout,sec_Cout;
+  wire k;
+    
+  //to get a+b=firstsum(binary sum)
+  addSub4bit as1(firstsum, first_Cout, op, a, b);
+    
+  //k=1 if firstsum>9 (first_c_out+S3S2+S3S1)
+  assign k = (first_Cout&(op^1'b1)) | (firstsum[3]&firstsum[2]) | (firstsum[3]&firstsum[1]);
+  //to get BCD sum with input firstsum+{0110} 
+  //if firstsum>9
+  addSub4bit as2 (sum, sec_Cout, 1'b0 , firstsum, {1'b0,k,k,1'b0});
+  assign Cout = (first_Cout&(op^1'b1)) | sec_Cout;
+
+endmodule

@@ -1,0 +1,22 @@
+//???_E94084016
+// implement a 4-bit adder&substractor
+// input: op(0 or 1) to be as adder or substractor
+// input: a(4-bit)
+// input: b(4-bit)
+// output: sum(4-bit)
+// output: Cout(final carry out bit)
+module addSub4bit(sum, Cout, op, a, b);
+  input op; //op=0 adder ; op=1 substractor
+  input [3:0] a;
+  input [3:0] b;
+  output [3:0] sum;
+  output Cout;
+  wire [3:0] bandop; 
+  // if do substractor, then invert b(bandop) 
+  // by using b xor 1
+  four_bit_XOR x1(bandop, b, {op,op,op,op});
+  // if do adder, bandop=b, op=0
+  // if do substractor, bandop=-b, op=1
+  four_bit_full_adder a1(sum, Cout, a, bandop, op);
+
+endmodule
